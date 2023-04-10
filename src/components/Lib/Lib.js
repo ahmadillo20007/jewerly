@@ -1,0 +1,1 @@
+export const token = 'https://63df32c43d94d02c0bb5c567.mockapi.io/posts'
