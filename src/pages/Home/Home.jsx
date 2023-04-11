@@ -68,7 +68,7 @@ function Home() {
   <button className Name="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
     <span className Name="carousel-control-next-icon" aria-hidden="true"></span>
     <span className Name="visually-hidden">Next</span>
-  </button>
+  </button>n
 </div>
 </center>
       </div>
