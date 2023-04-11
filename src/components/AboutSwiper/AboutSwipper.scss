@@ -1,0 +1,26 @@
+// .form{
+//     width: 50%;
+//     margin: 0 auto;
+//     border: 1px solid #000;
+//     input {
+//         margin: 10px;
+//     }
+// }
+.about {
+    
+    .about__list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+        .about__item {
+            img {
+                box-shadow: 1px 2px 13px  grey ;
+                border-radius: 8px;
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+            }
+        }
+    }
+}

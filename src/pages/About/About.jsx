@@ -1,11 +1,11 @@
 import React from 'react'
+import AboutSwipper from '../../components/AboutSwiper/AboutSwipper'
 
 function About() {
+
   return (
     <div>
-        {/* <h1>
-        this page is for you Kamron bro
-        </h1> */}
+       <AboutSwipper/>
     </div>
   )
 }

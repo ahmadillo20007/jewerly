@@ -1,10 +1,10 @@
-
 import './App.css';
+import About from './components/AboutSwiper/AboutSwipper';
 
 function App() {
   return (
     <div className="App">
-   
+      <About/>
     </div>
   );
 }
