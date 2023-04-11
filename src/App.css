@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+overflow: hidden;
+}
+>>>>>>> 42a7c0d82ee9649165ebde71a81ff327a2ed1df2
