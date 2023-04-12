@@ -7,12 +7,13 @@
 //     }
 // }
 .about {
-    
+    margin-top: 128px;
     .about__list{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     list-style-type: none;
+    justify-content: space-between;
         .about__item {
             img {
                 box-shadow: 1px 2px 13px  grey ;
@@ -21,6 +22,46 @@
                 height: 120px;
                 object-fit: cover;
             }
+        }
+    }
+}
+.about__inner {
+    display: flex;
+}
+.img_banner {
+    margin-left: 39px;
+    display: flex;
+    // align-items: center;
+    img {
+        width: 540px;
+        height: 600px;
+        object-fit: cover;
+        box-shadow: 1px 2px 13px  grey ;
+        border-radius: 8px;
+    }
+    .banner__info{
+        margin-left: 60px;
+        h2 {
+            font-size: 26px;
+            line-height: 35px;
+        }
+        b{display: block;
+            margin-top: 23px;
+            color: #A18A68;
+        }
+        .banner__star {
+            margin-top: 60px;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            span {
+                color: grey;
+            }
+        }
+        p{
+            margin-top: 19px;
+            width: 455px;
         }
     }
 }

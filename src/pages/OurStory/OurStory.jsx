@@ -23,9 +23,10 @@ function OurStory() {
   return (
     <div className='OurStory'>
       <h1>Shop The Latest</h1>
-<ul>
 
-    {
+
+<ul>
+{
       data && data.map((item,index)=>{
         <li key={index} className='element' >
    {  
@@ -36,6 +37,7 @@ function OurStory() {
     }
 
 </ul>
+
       </div> 
   )
 }
