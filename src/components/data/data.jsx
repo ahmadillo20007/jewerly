@@ -1,9 +1,9 @@
-const data = [
+export const data = [
 
     {
         id: 1,
         name: `4ct tw Cubic Zirconia Earrings`,
-        img: `https://n.nordstrommedia.com/id/sr3/daf15efe-ad61-468f-b785-8b400d3e993e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196`,
+        img: 'https://avatars.mds.yandex.net/i?id=00801415c91c5f99b69b13895366f411-5485649-images-thumbs&ref=rim&n=33&w=250&h=188',
         price: `50`,
         types: `fashion`,
         description: `Classically chic,
