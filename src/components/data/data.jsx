@@ -1,10 +1,10 @@
-const data = [
+export const data = [
 
     {
         id: 1,
         name: `4ct tw Cubic Zirconia Earrings`,
         img: `https://n.nordstrommedia.com/id/sr3/daf15efe-ad61-468f-b785-8b400d3e993e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196`,
-        price: `50`,
+        price: `$ 50`,
         types: `fashion`,
         description: `Classically chic,
      handcrafted studs feature sparkling, 
@@ -14,7 +14,7 @@ const data = [
         id: 2,
         name: `Lucent Stud Earrings`,
         img: `https://n.nordstrommedia.com/id/sr3/e0dea2d6-3afe-44ad-acfc-3f340e0e690b.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196`,
-        price: `225`,
+        price: `$ 225`,
         types: `fashion`,
         description: `Sparkling crystals in a vibrant hue adorn both sides of these stud earrings for a look that sparkles and shines from every angle.`
     },
@@ -22,7 +22,7 @@ const data = [
         id: 3,
         name: `sparkle round stud earrings`,
         img: `https://n.nordstrommedia.com/id/sr3/d384f4d2-43f6-4992-9530-ed9729420a90.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196`,
-        price: `38`,
+        price: `$ 38`,
         types: `fashion`,
         description: `Glistening cubic zirconia are clutched in scalloped, plated bezels, fusing glamour and charm on these round stud earrings.`
     },
@@ -46,7 +46,7 @@ const data = [
         id: 6,
         name: `Sculpted Stud Earrings`,
         img: `https://n.nordstrommedia.com/id/sr3/b5937797-b451-4e1a-8d46-aeab963532c9.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196`,
-        price: `15`,
+        price: `$ 15`,
         types: `fashion`,
         description: `Finished in polished goldtone plate, these dreamy studs feature a fluid, sculpted design that catches the light beautifully.`
     },

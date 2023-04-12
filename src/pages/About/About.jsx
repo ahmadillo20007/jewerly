@@ -1,11 +1,12 @@
 import React from 'react'
 import AboutSwipper from '../../components/AboutSwiper/AboutSwipper'
-import { Link } from 'react-router-dom'
+import Header from '../../components/Header/Header'
 
 function About() {
 
   return (
     <div>
+      <Header/>
        <AboutSwipper/>
     </div>
   )
