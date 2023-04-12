@@ -8,8 +8,8 @@ import Shop from '../Shop/Shop'
 import './Home.scss'
 function Home() {
   return (
-    <div className NameName='Home'> 
-      <div className NameName="container">
+    <div className ='Home'> 
+      <div className ="container">
       <nav className ="navbar navbar-expand-lg navbar-light bg-light">
   <div className ="container-fluid">
     <Link className ="navbar-brand" to={'/'}><img src={nav} alt="" /></Link>
@@ -25,11 +25,11 @@ function Home() {
           <Link className ="nav-link" to={'/blog'}>Blog</Link>
         </li>
         <li className ="nav-item">
-          <Link className ="nav-link disabled" to={'/'} tabindex="-1" aria-disabled="true">Disabled</Link>
+          <Link className ="nav-link disabled" to={'/'} tabIndex="-1" aria-disabled="true">Disabled</Link>
         </li>
       </ul>
       <form className ="d-flex">
-<input className ="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+      <input className ="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
         <button className ="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>

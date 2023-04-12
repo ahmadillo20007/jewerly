@@ -17,7 +17,6 @@ function OurStory() {
       });
     })
     .catch(error => console.error(error));
-  
 
   }, [])
   return (

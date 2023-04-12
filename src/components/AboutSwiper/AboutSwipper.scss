@@ -29,9 +29,8 @@
     display: flex;
 }
 .img_banner {
-    margin-left: 39px;
+    margin-left: 25px;
     display: flex;
-    // align-items: center;
     img {
         width: 540px;
         height: 600px;
@@ -40,7 +39,7 @@
         border-radius: 8px;
     }
     .banner__info{
-        margin-left: 60px;
+        margin-left: 50px;
         h2 {
             font-size: 26px;
             line-height: 35px;
@@ -61,7 +60,7 @@
         }
         p{
             margin-top: 19px;
-            width: 455px;
+            width: 450px;
         }
     }
 }
