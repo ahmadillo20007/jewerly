@@ -1,38 +1,26 @@
-import React, { useEffect, useState } from 'react'
-import { API_URL } from '../../components/Lib/Api'
+import { data } from '../../components/data/data'
 import './OurStory.scss'
-function OurStory() {
-  const [data, setdata] = useState([])
-  useEffect(() => {
-    fetch(`${API_URL}`)
-    .then(res => res.json())
-    .then(data => {
-      const container = document.getElementById('data-container');
-      data.forEach(item => {
-        const element = document.createElement('div');
-        element.textContent = item.name;
-        element.textContent = item.img;
-        element.textContent = item.price;
-        container.appendChild(element);
-      });
-    })
-    .catch(error => console.error(error));
+function Home() {
 
-  }, [])
   return (
-    <div className='/'>
+    <div className='OurStory'>
       <h1>Shop The Latest</h1>
+
+<ul>
 {
-  // API_URL && API_URL.map((item,index)=>())
-}
-<div id='data'>
+      data && data.map((item,index)=>{
+        <li key={index} className='element' >
+   {  
+        item.name 
+        }
+        </li>
+      })
+    }
 
-<li id='data-container'>
+</ul>
 
-</li>
-</div>
       </div> 
   )
 }
 
-export default OurStory
+export default Home

@@ -8,13 +8,13 @@ function Header() {
         <nav className="header__inner container">
             <ul className='header__list'>
                 <li className='header__item '>
-                    <Link><img src={logo} alt="" /></Link>
+                    <Link to='/'><img src={logo} alt="" /></Link>
                 </li>
-                <li className='header__item activeNav'>
-                    <Link>Shop</Link>
+                <li className='header__item '>
+                    <Link to='/shop'>Shop</Link>
                 </li>
                 <li className='header__item'>
-                    <Link>Blog</Link>
+                    <Link to='/blog'>Blog</Link>
                 </li>
                 <li className='header__item'>
                     <Link>Our Story</Link>
