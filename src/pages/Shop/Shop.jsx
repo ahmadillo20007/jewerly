@@ -6,10 +6,7 @@ function Shop() {
     <div className='shop'>
       <div className="shop__inner container">
       <h2 className="shop__title">Shop The Latest</h2>
-      <Link to='/about/1'>About</Link>
-      <Routes>
-      <Route path='/about/:slug'/>
-      </Routes>
+      <Link to='/about/4'>About</Link>
       </div>
     </div> 
   )

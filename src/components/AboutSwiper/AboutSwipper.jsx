@@ -18,7 +18,7 @@ function AboutSwipper() {
                 <ul className='about__list'>
                     {
                         data && data
-                        .slice(0,4).filter((item)=>item).map((item,ind)=>(
+                        .slice(4,8).filter((item)=>item).map((item,ind)=>(
                         <li className='about__item' key={ind}>
                             <Link to={`/about/${item.id}`}><img src={item.img} alt="" /></Link>
                         </li>

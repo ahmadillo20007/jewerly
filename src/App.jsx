@@ -5,6 +5,7 @@ import Blog from './pages/Blog/Blog';
 import Home from './pages/OurStory/OurStory';
 import Header from './components/Header/Header'
 import Menu from './pages/Home/Home';
+import About from './pages/About/About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Routes>
     <Route path='/' element={<Menu/>}/>
     <Route path='/shop' element={<Shop/>}/>
+    <Route path='/about/:slug' element={<About/>}/>
     <Route path='/blog' element={<Blog/>}/>
 </Routes>
     
