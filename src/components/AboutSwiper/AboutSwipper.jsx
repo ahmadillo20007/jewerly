@@ -12,25 +12,6 @@ function AboutSwipper() {
             
     }, [])
     const imgBanner = data.find((item)=> item.id == slug)
-    //     const go = (e)=>{
-    //         e.preventDefault();
-    //         console.log(e.target.name.value);
-    // const newUser = {
-    //     name: e.target.name.value,
-    //     img: e.target.img.value,
-    //     price: e.target.price.value,
-    //     types: e.target.types.value,
-    //     description: e.target.des.value,
-    // }
-    //         fetch(`${API_URL}`,{
-    //             method: 'POST',
-    //             headers: {'Content-type':'application/json'},
-    //             body:JSON.stringify(newUser)
-    //         })
-    //         .then((res)=>res.json())
-    //         .then((data)=>console.log(data))
-    //     }
-
     return (
         <div className='about'>
             <div className="about__inner container">

@@ -1,6 +1,6 @@
 import { data } from '../../components/data/data'
 import './OurStory.scss'
-function Home() {
+function OurStory() {
 
   return (
     <div className='OurStory'>
@@ -23,4 +23,4 @@ function Home() {
   )
 }
 
-export default Home
+export default OurStory
