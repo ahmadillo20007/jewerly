@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Shop.scss'
 import { Link} from 'react-router-dom'
-import { data } from '../../components/data/data'
+import { API_URL } from '../../components/Lib/Api'
 function Shop() {
+  const [data, setdata] = useState([])
+
+  useEffect(() => {
+    fetch(`${API_URL}`)
+        .then((res) => res.json())
+        .then((data) => setdata(data))   
+}, [])
+
 
   return (
     <div className='shop'>
@@ -40,9 +48,11 @@ function Shop() {
             {
               data && data.map((item,index)=>(
                 <li key={index} className='shop__item'>
+                    <Link to={`/about/${item.id}`}>
                     <img src={item.img} alt="" />
                     <h4>{item.name}</h4>
                     <span>{item.price}</span>
+                    </Link>
                 </li>
               ))
             }

@@ -4,7 +4,7 @@ export const data = [
         id: 1,
         name: `Cubic Zirconia Earrings`,
         img: 'https://avatars.mds.yandex.net/i?id=00801415c91c5f99b69b13895366f411-5485649-images-thumbs&ref=rim&n=33&w=250&h=188',
-        price: `50`,
+        price: `$ 50,00`,
         types: `fashion`,
         description: `Classically chic,
      handcrafted studs feature sparkling, 

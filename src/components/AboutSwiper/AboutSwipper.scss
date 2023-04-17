@@ -114,3 +114,40 @@
         }
     }
 }
+.about__btnLink {
+    position: relative;
+    margin-right: 96px;
+    color:  #707070;
+    border: none;
+    background-color: inherit;
+}
+.btnLinkActive::after {
+    display: block;
+    position: absolute;
+    bottom: -135%;
+    content: '';
+    width: 100%;
+    border: 1px solid #000;
+}
+.about__btn__list {
+    padding: 0;
+    padding-bottom: 32px;
+    border-bottom: 1px solid grey;
+    margin-top: 120px;
+}
+
+.about__similar {
+    display: flex;
+    a{
+        color: #000;
+        text-decoration: none;
+        img{
+            width: 380px;
+            height: 380px;
+            object-fit: cover;
+        }
+        span{
+            color: #A18A68;
+        }
+    }
+}
